@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133874FF1E8775A800640065 /* star--full.png in Resources */ = {isa = PBXBuildFile; fileRef = 133874F81E8775A800640065 /* star--full.png */; };
+		133875001E8775A800640065 /* star-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 133874F91E8775A800640065 /* star-empty.png */; };
+		133875011E8775A800640065 /* star-half.png in Resources */ = {isa = PBXBuildFile; fileRef = 133874FA1E8775A800640065 /* star-half.png */; };
+		133875021E8775A800640065 /* CJTStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133874FC1E8775A800640065 /* CJTStarView.m */; };
+		133875031E8775A800640065 /* CJTStarView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 133874FE1E8775A800640065 /* CJTStarView2.m */; };
 		408152031CBCF7E60097364A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 408152021CBCF7E60097364A /* main.m */; };
 		408152061CBCF7E60097364A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 408152051CBCF7E60097364A /* AppDelegate.m */; };
 		408152091CBCF7E60097364A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408152081CBCF7E60097364A /* ViewController.m */; };
@@ -15,11 +20,6 @@
 		408152111CBCF7E60097364A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4081520F1CBCF7E60097364A /* LaunchScreen.storyboard */; };
 		4081521C1CBCF7E60097364A /* StarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4081521B1CBCF7E60097364A /* StarTests.m */; };
 		408152271CBCF7E70097364A /* StarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 408152261CBCF7E70097364A /* StarUITests.m */; };
-		408152361CBCF83C0097364A /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408152351CBCF83C0097364A /* StarView.m */; };
-		4081523A1CBCFABB0097364A /* star--full.png in Resources */ = {isa = PBXBuildFile; fileRef = 408152371CBCFABB0097364A /* star--full.png */; };
-		4081523B1CBCFABB0097364A /* star-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 408152381CBCFABB0097364A /* star-empty.png */; };
-		4081523C1CBCFABB0097364A /* star-half.png in Resources */ = {isa = PBXBuildFile; fileRef = 408152391CBCFABB0097364A /* star-half.png */; };
-		408152411CBD1EE80097364A /* StarView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 408152401CBD1EE80097364A /* StarView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		133874F81E8775A800640065 /* star--full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star--full.png"; sourceTree = "<group>"; };
+		133874F91E8775A800640065 /* star-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-empty.png"; sourceTree = "<group>"; };
+		133874FA1E8775A800640065 /* star-half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-half.png"; sourceTree = "<group>"; };
+		133874FB1E8775A800640065 /* CJTStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTStarView.h; sourceTree = "<group>"; };
+		133874FC1E8775A800640065 /* CJTStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTStarView.m; sourceTree = "<group>"; };
+		133874FD1E8775A800640065 /* CJTStarView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTStarView2.h; sourceTree = "<group>"; };
+		133874FE1E8775A800640065 /* CJTStarView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTStarView2.m; sourceTree = "<group>"; };
 		408151FE1CBCF7E60097364A /* Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Star.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408152021CBCF7E60097364A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		408152041CBCF7E60097364A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,13 +63,6 @@
 		408152221CBCF7E70097364A /* StarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		408152261CBCF7E70097364A /* StarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarUITests.m; sourceTree = "<group>"; };
 		408152281CBCF7E70097364A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		408152341CBCF83C0097364A /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
-		408152351CBCF83C0097364A /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
-		408152371CBCFABB0097364A /* star--full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star--full.png"; sourceTree = "<group>"; };
-		408152381CBCFABB0097364A /* star-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-empty.png"; sourceTree = "<group>"; };
-		408152391CBCFABB0097364A /* star-half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-half.png"; sourceTree = "<group>"; };
-		4081523F1CBD1EE80097364A /* StarView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView2.h; sourceTree = "<group>"; };
-		408152401CBD1EE80097364A /* StarView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		133874F61E8775A800640065 /* CJTStar */ = {
+			isa = PBXGroup;
+			children = (
+				133874F71E8775A800640065 /* CJTStarImage */,
+				133874FB1E8775A800640065 /* CJTStarView.h */,
+				133874FC1E8775A800640065 /* CJTStarView.m */,
+				133874FD1E8775A800640065 /* CJTStarView2.h */,
+				133874FE1E8775A800640065 /* CJTStarView2.m */,
+			);
+			path = CJTStar;
+			sourceTree = "<group>";
+		};
+		133874F71E8775A800640065 /* CJTStarImage */ = {
+			isa = PBXGroup;
+			children = (
+				133874F81E8775A800640065 /* star--full.png */,
+				133874F91E8775A800640065 /* star-empty.png */,
+				133874FA1E8775A800640065 /* star-half.png */,
+			);
+			path = CJTStarImage;
+			sourceTree = "<group>";
+		};
 		408151F51CBCF7E60097364A = {
 			isa = PBXGroup;
 			children = (
@@ -119,11 +141,7 @@
 				408152121CBCF7E60097364A /* Info.plist */,
 				4081520F1CBCF7E60097364A /* LaunchScreen.storyboard */,
 				4081520A1CBCF7E60097364A /* Main.storyboard */,
-				4081523E1CBCFAD80097364A /* StarImage */,
-				408152341CBCF83C0097364A /* StarView.h */,
-				408152351CBCF83C0097364A /* StarView.m */,
-				4081523F1CBD1EE80097364A /* StarView2.h */,
-				408152401CBD1EE80097364A /* StarView2.m */,
+				133874F61E8775A800640065 /* CJTStar */,
 				408152011CBCF7E60097364A /* Supporting Files */,
 				408152071CBCF7E60097364A /* ViewController.h */,
 				408152081CBCF7E60097364A /* ViewController.m */,
@@ -155,16 +173,6 @@
 				408152281CBCF7E70097364A /* Info.plist */,
 			);
 			path = StarUITests;
-			sourceTree = "<group>";
-		};
-		4081523E1CBCFAD80097364A /* StarImage */ = {
-			isa = PBXGroup;
-			children = (
-				408152371CBCFABB0097364A /* star--full.png */,
-				408152381CBCFABB0097364A /* star-empty.png */,
-				408152391CBCFABB0097364A /* star-half.png */,
-			);
-			name = StarImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4081523A1CBCFABB0097364A /* star--full.png in Resources */,
+				133874FF1E8775A800640065 /* star--full.png in Resources */,
 				408152111CBCF7E60097364A /* LaunchScreen.storyboard in Resources */,
-				4081523C1CBCFABB0097364A /* star-half.png in Resources */,
-				4081523B1CBCFABB0097364A /* star-empty.png in Resources */,
+				133875011E8775A800640065 /* star-half.png in Resources */,
+				133875001E8775A800640065 /* star-empty.png in Resources */,
 				4081520E1CBCF7E60097364A /* Assets.xcassets in Resources */,
 				4081520C1CBCF7E60097364A /* Main.storyboard in Resources */,
 			);
@@ -300,10 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133875031E8775A800640065 /* CJTStarView2.m in Sources */,
 				408152091CBCF7E60097364A /* ViewController.m in Sources */,
 				408152061CBCF7E60097364A /* AppDelegate.m in Sources */,
-				408152361CBCF83C0097364A /* StarView.m in Sources */,
-				408152411CBD1EE80097364A /* StarView2.m in Sources */,
+				133875021E8775A800640065 /* CJTStarView.m in Sources */,
 				408152031CBCF7E60097364A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +538,7 @@
 				4081522D1CBCF7E70097364A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4081522E1CBCF7E70097364A /* Build configuration list for PBXNativeTarget "StarTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +547,7 @@
 				408152301CBCF7E70097364A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		408152311CBCF7E70097364A /* Build configuration list for PBXNativeTarget "StarUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +556,7 @@
 				408152331CBCF7E70097364A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
